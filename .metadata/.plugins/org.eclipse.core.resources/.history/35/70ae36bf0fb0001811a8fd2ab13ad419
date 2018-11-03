@@ -1,0 +1,28 @@
+
+public class findingSizebyStack {
+	
+	
+	
+	public int findSize(Node root){
+		
+		
+		
+		return 0;
+	}
+	
+	public int findSizebyStack(Node root){
+		
+		
+		
+		return 0;
+	}
+	
+	
+	
+	
+	public static void main(String args[]){
+		
+	}
+	
+
+}

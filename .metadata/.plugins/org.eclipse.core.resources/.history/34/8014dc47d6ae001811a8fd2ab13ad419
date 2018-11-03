@@ -1,0 +1,34 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+class Node 
+{
+    int data;
+    Node left, right;
+  
+    Node(int item) 
+    {
+        data = item;
+        left = right = null;
+    }
+}
+  
+public class BinaryTreeMax {
+	
+	public int Findmax(){
+		Node root;
+		int max = 0;
+		Node findMax(Node node)
+		{
+			if (root == null)
+				return max;
+			
+			if (root.left != null){
+				
+			}
+		}
+		            
+		  
+	return max;
+	}
+}

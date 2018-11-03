@@ -1,0 +1,33 @@
+package com;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+public class ManagerDAO {
+	
+	public boolean updateManager( int mangerId, String branch) throws SQLException{
+	
+		RelationShipManager rm = new RelationShipManager();
+		boolean flag = false;
+		Connection con = null;
+		PreparedStatement pst = null;
+		con = DatabaseUtil.getConnection();
+		
+		if (con != null && branch != null) {
+			// write the query and replace the hardcoded calues with ? because
+			// you need to assign ? with the given inputs
+			String sql = "insert into TBL_RelshipManger_1446232(?) where MANAGERID(?)";
+			// creating the prepared stmt with the help of connection
+			pst = con.prepareStatement(sql);
+
+			pst.setString(1, branch);
+			pst.setInt(2, mangerId);
+
+	
+	}
+		return flag;
+	}
+}

@@ -1,0 +1,28 @@
+package com;
+
+public class RelationShipManager {
+	private int ManagerID;
+	private String ManagerName;
+	private String Branch;
+	public int getManagerID() {
+		return ManagerID;
+	}
+	public void setManagerID(int managerID) {
+		ManagerID = managerID;
+	}
+	public String getManagerName() {
+		return ManagerName;
+	}
+	public void setManagerName(String managerName) {
+		ManagerName = managerName;
+	}
+	public String getBranch() {
+		return Branch;
+	}
+	public void setBranch(String branch) {
+		Branch = branch;
+	}
+	
+	
+
+}

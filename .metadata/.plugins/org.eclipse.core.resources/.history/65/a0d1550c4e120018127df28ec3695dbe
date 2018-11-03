@@ -1,0 +1,16 @@
+package com;
+
+import java.sql.SQLException;
+import com.ManagerDAO;
+public class Tester {
+	
+	ManagerDAO dao = new ManagerDAO();
+	
+	try {
+		boolean chk=dao.updateManager(990,"Delhi");
+		System.out.println(chk);
+	} catch (SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+}

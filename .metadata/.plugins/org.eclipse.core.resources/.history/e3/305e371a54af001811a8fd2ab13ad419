@@ -1,0 +1,22 @@
+
+public class FindtheSize {
+	
+	
+	public int findSize(Node root){
+		int leftCount = root.left == null ? 0: findSize(root.left); 
+		int rightCount = root.right == null ? 0: findSize(root.right); 
+		
+		
+		
+		return 0;
+	}
+	
+	
+	
+	public static void main(String args[]){
+		
+	}
+	
+	
+
+}
